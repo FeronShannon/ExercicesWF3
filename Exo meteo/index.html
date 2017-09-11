@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+	<title>JSON and Ajax</title>
+</head>
+<body>
+	<header>
+		<h1>Application de météo de oufs !</h1>
+	</header>
+	<main>
+		<form id="weather-query">
+			<input type="text" name="ville" id="ville" placeholder="Tapez une ville">
+			<button type="submit">Charger !</button>
+			<div class="hidden" id="error">Veuillez entrer une ville</div>
+			<div class="hidden" id="undefined">Cette ville n'existe pas, veuillez entrer un autre nom de ville SVP :)</div>
+
+			<div class="hidden" id="meteo">
+				<div id="temps"><i class="wi wi-day-rain"></i></div>
+				<div id="temperature">Oggi, il fait <span id="degres"></span> degrès !</div>
+			</div>
+		</form>
+	</main>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+

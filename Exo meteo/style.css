@@ -1,0 +1,41 @@
+body, header, main{
+	font-family: 'Raleway', sans-serif;
+	background-color: black;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+main{
+
+	width: 55%;
+	
+}
+#weather-query{
+	text-align: center;
+}
+input, button{
+	padding: 1%;
+}
+button{
+	background-color: navy;
+	border: 2px solid blue;
+	
+	color: white;
+}
+header{
+	width: 25%;
+}
+h1{
+	font-family: 'Merriweather', serif;
+	font-size: 3.2rem;
+}
+
+
+#temps{
+	margin: 2%;
+	font-size: 500%;
+}
+
+.hidden{
+	display: none;
+}
