@@ -1,0 +1,46 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+main{
+	margin: 0 auto;
+	border: 0.02rem solid grey;
+	padding: 1%;
+	width: 38%;
+	
+}
+section{
+	display: flex;
+	justify-content: flex-start;
+}
+article{
+	
+}
+h1{
+	text-align: center;
+	font-family: 'Cinzel', serif;
+}
+
+img{
+	border-radius: 50%;
+}
+
+#btns{
+	border-top: 0.02rem solid black;
+	display: flex;
+}
+
+button{
+	font-size: 1.2rem;
+	color: white;
+	padding: 1.5% 15% 1.5% 15%;
+	border: none;
+	justify-content: center;
+}
+#dislike{
+	background-color: red;
+}
+
+#like{
+	background-color: lightgreen;
+	border: 0.02rem solid black;
+}
