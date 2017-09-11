@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculette jQuery</title>
+	<meta charset="utf-8">
+
+	<style>
+		h1{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<h1>Ma calculette jQuery</h1>
+
+<form>
+	<input type="text" placeholder="Nombre 1" id="nombre-1">
+	<input type="text" placeholder="Nombre 2" id="nombre-2">
+
+
+<!-- Pour créer une liste déroulante, c'est la balise select avec option dedans : -->
+	<select id="operation">
+		<option value="addition">Additionner</option>
+		<option value="soustraction">Soustraire</option>
+		<option value="multiplication">Multiplier</option>
+	</select>
+
+
+	<button type="submit">Calculer</button>
+	<p>Le résultat de l'opération est <span>...</span></p>
+</form>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/programme.js"></script>
+</body>
+</html>
