@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validation de formulaire</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Remplissez le formulaire</h2>
+
+	<form>
+		<input type="text" class="obligatoire" id="nom" placeholder="Nom de famille">
+		<p id="nom-message" class="erreur-message">Veuillez remplir votre nom de famille</p>
+		<input type="text" class="obligatoire" id="prenom" placeholder="Prénom">
+		<p id="prenom-message" class="erreur-message">Veuillez remplir votre prénom</p>
+		<input type="text" id="email" placeholder="Email">
+		<select class="obligatoire" id="civilite">
+			<option value="">--- Sélectionnez votre civilité ---</option>
+			<option value="mme">Madame</option>
+			<option value="m">Monsieur</option>
+		</select>
+
+		<input type="text" id="age" placeholder="Age">
+		<input type="text" class="obligatoire" id="adresse" placeholder="Votre adresse">
+		<input type="number" class="obligatoire" id="code-postal" placeholder="Code postal">
+		<button type="submit">Je m'inscris !</button>
+	</form>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/programme.js"></script>
+</body>
+</html>
