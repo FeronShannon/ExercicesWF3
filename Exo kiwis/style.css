@@ -1,0 +1,31 @@
+body{
+	background-color: lightgreen;
+}
+
+h1 {
+	font-family: Noto Sans;
+	font-weight: bold;
+}
+
+p{
+	color: white;
+	font-family: Noto Sans;
+	font-size: 30px;
+}
+
+#kiwis1, #kiwis2, #kiwis3, #kiwis {
+	border: 5px solid black;
+}
+
+#kiwis1, #kiwis2, #kiwis {
+	display: none;
+}
+
+#btn{
+	padding: 1%;
+	border: 4px solid green;
+	font-size: 18px;
+	border-radius: 50%;
+	text-shadow: 2px 1px 5px black;
+	box-shadow: 5px 6px 8px black;
+}
