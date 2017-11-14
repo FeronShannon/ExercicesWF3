@@ -1,0 +1,9 @@
+Bonjour,
+
+Pour tester le code d'ajout/suppression/modification d'un abonné de la newsletter, veuillez :
+- Créer une table SQL nommée "Newsletter".
+- Et ouvrir la page "admin-newsletter.php".
+
+Bon test !
+
+Shannon F.

@@ -1,0 +1,67 @@
+html, body {
+    padding:0;
+    margin:0;
+    font-size:1.3rem;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+h1,
+h3,
+table caption,
+footer p{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    margin-top: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+a:hover{
+    color: gray;
+}
+h3{
+    margin-top: 1rem;
+}
+input, button{
+    padding: 0.5%;
+}
+input:hover{
+    background-color: gray;
+}
+td{
+    padding: 1%;
+}
+table{
+    margin: 0 auto;
+    width: 70%;
+    border-collapse: collapse;
+    border-left: 1rem solid grey;
+}
+table caption,
+footer p{
+    color: white;
+    margin: 1rem 0 1rem 0;
+    padding: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background: linear-gradient(to top, black, grey); /* Standard syntax */
+}
+td{
+    border: 1px solid #123456;
+}
+.supp, .ko{
+    color: red;
+}
+.vert{
+    color: green;
+}
+.presentation{
+    width: 20%;
+    position: absolute;
+    margin-left: 4rem;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 1rem;
+   text-align: left;
+}
